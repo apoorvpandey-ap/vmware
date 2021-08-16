@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=f1Gqc3JWBBI
+
 ## session management
 
 tmux ls (or tmux list-sessions)

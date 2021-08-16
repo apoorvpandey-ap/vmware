@@ -1,4 +1,5 @@
-# session management
+## session management
+
 tmux ls (or tmux list-sessions)
 tmux new -s session-name
 Ctrl-b d Detach from session

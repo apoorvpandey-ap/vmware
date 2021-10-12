@@ -1,7 +1,28 @@
 ![Vmware-logo](https://user-images.githubusercontent.com/66588814/129449988-a7b2b9bf-c360-4df3-9faa-9eeee2dd763d.png)
 ### ![80](https://user-images.githubusercontent.com/66588814/129146953-ae3b9e00-b4c8-4104-8dbe-f4652ec494bf.png)
+---
+## Code Commit Process  {Diagram 0 }
+![image](https://user-images.githubusercontent.com/66588814/136900747-146fc92f-b39a-427f-9179-5f1cc91ffbee.png)
+
+graph TB
+    0[master]-.->1;
+    0-->6[branch]
+    1[1. Import file]-.->1.5;
+    1.5[1.5 Unlock file ]-->2
+    2[2. Edit file]-->3;
+    3[3. Testing]-->4;
+    3-.->|rd-service|3;
+    3-.->|vcente-all|3;
+    3-.->|manual-testing|3;
+    4[4. Get token number]-->5;
+    5[5. Review-Board]-->6
+
+
+---
+
 ## Code Commit Processs{ Diagram 1 }
 ![19](https://user-images.githubusercontent.com/66588814/129146617-9b9f4206-6eaf-4dca-a808-923bb718fcbd.PNG)
+
 
 ```js
 graph LR
@@ -55,4 +76,3 @@ classDiagram
             Perforce_ID-786)
         }
 ```
-
